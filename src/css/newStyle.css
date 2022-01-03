@@ -1,0 +1,53 @@
+.weather-container {
+
+    font-family: "Lato", Helvetica Neue, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.icon_Skycons{
+    width: 30px;
+    height: 30px;
+}
+.week-current-day {
+    text-align: center;
+    font-size: 40px;
+}
+
+.week-all-days {
+    display: flex;
+    text-align: center;
+}
+
+.week-one-day {
+    display: flex;
+    width: 15vw;
+    padding: 10px;
+}
+
+.form-input {
+    background: transparent;
+    box-shadow: 0 none;
+    border: 0 none;
+    border-bottom: 2px solid transparent;
+    color: white;
+    border-radius: 0;
+    font-size: 42px;
+}
+
+.form-input:focus,
+:active {
+    box-shadow: none;
+    border: 0 none;
+    border-bottom: 2px solid white;
+}
+
+.location{
+    margin: 10px;
+}
+
+.timestamp{
+    margin: 5px;
+}
